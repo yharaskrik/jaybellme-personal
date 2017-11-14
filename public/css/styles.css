@@ -1,0 +1,9 @@
+body {
+    background-color: whitesmoke;
+}
+
+.img-nav {
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 10vw;
+}
