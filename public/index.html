@@ -13,16 +13,17 @@
     <meta charset="UTF-8">
     <title>Jay Bell</title>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
           media="screen,projection">
     <link rel="stylesheet" href="css/styles.css">
     <!-- Material Design fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
     <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -101,9 +102,7 @@
             </div>
         </div>
         <div class="col s12">
-            <p>Hi, my name is Jay Bell. I am an entrepreneur and software developer. I have worked on
-                many projects from
-                thermal imaging to mobile apps. I graduated Thompson Rivers University from the Computer System:
+            <p>I graduated Thompson Rivers University from the Computer System:
                 Operations and
                 Management diploma program and am currently finishing my undergraduate in Computer Science at the
                 University
@@ -334,6 +333,58 @@
             </li>
         </ul>
     </div>
+
+    <div class="row">
+        <ul class="collapsible popout collection with-header" data-collapsible="accordion">
+            <li class="collection-header"><h4>Events and Competitions</h4></li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Helped plan Startup Weekend Okanagan 2017</div>
+                <div class="collapsible-body"><span>Unofficial but team given title of Deputy Assistant Facilitator for
+                 Startup Weekend Okanagan 2017.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Judge for Entrepreneurship Bootcamp 2017</div>
+                <div class="collapsible-body"><span>Asked to Judge the bootcamp for 2017 after leaving school to pursue Unite full time.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Canadian Business Model Canvas Competition 2016</div>
+                <div class="collapsible-body"><span>Chosen as one of thirty teams from across Canada to travel to Halifax, NS
+                 to pitch AlumniXchange at Dalhousie University.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Entrepreneurship Bootcamp 2016</div>
+                <div class="collapsible-body"><span>Pitched AlumniXchange and placed first.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Startup Weekend Okanagan 2015</div>
+                <div class="collapsible-body"><span>Created and pitched a company called AlumniXchange that helped
+                students connect with fellow alumnus from their home institution for lodging and business connections.
+                Marketed it as AirBnB for alumni.<br>Won Craziest Team.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Entrepreneurship Bootcamp 2015</div>
+                <div class="collapsible-body"><span>Pitched Unite.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Canadian Business Model Canvas Competition</div>
+                <div class="collapsible-body"><span>Chosen as one of thirty teams from across Canada to travel to Halifax, NS
+                 to pitch Unite at Dalhousie University.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Startup Weekend Okanagan 2014</div>
+                <div class="collapsible-body"><span>Created and pitched a company called HappyCoin that helped
+                people in developing nations crowd fund investment using Bitcoin.<br>Won Best Use of Cloud Technology award
+                and tickets to the Cloud Factory conference in Banff, AB.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">event</i>Entrepreneurship Bootcamp 2013</div>
+                <div class="collapsible-body"><span>Pitched Sha Software and the various mining and trading
+                services we were offering as well as the software we were developing.<br>Were the recipients
+                of 2nd place and the accompanying $5000 dollar prize, as well as the opportunity to travel to
+                Plug and Play Tech Center to pitch to enter their Bitcoin Accelerator Program.</span></div>
+            </li>
+        </ul>
+    </div>
     <div class="header">
         <h4 class="center-align">Contact Me</h4>
     </div>
@@ -363,10 +414,13 @@
 </div>
 
 <script>
+
     $(document).ready(function () {
         $('.carousel').carousel();
         $(".button-collapse").sideNav();
+        $('.collapsible').collapsible();
     });
+
 </script>
 </body>
 </html>
